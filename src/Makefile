@@ -163,3 +163,4 @@ help:
 	@echo "- man : build man pages"
 	@echo "- html : build html pages"
 	@echo "- alldist : build all packages"
+	@echo "- clean : clean building temp files"

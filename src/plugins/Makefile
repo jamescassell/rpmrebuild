@@ -2,29 +2,22 @@
 TOP_DIR := ..
 include $(TOP_DIR)/Makefile.include
 
-PLUGINS :=          \
-   compat_digest.plug \
-   demo.plug        \
-   demofiles.plug   \
-   file2pacDep.plug \
-   nodoc.plug       \
-   set_tag.plug     \
-   uniq.plug        \
-   un_prelink.plug  \
-   unset_tag.plug   \
+# list of plugins names
+PLUG_LIST := \
+   compat_digest \
+   demo        \
+   demofiles   \
+   file2pacDep \
+   nodoc       \
+   set_tag     \
+   uniq        \
+   un_prelink  \
+   unset_tag   \
                     \
 
-SCRIPTS :=        \
-   compat_digest.sh \
-   demo.sh        \
-   demofiles.sh   \
-   file2pacDep.sh \
-   nodoc.sh       \
-   set_tag.sh     \
-   uniq.sh        \
-   un_prelink.sh  \
-   unset_tag.sh   \
-                  \
+PLUGINS := $(addsuffix .plug, $(PLUG_LIST))
+
+SCRIPTS := $(addsuffix .sh, $(PLUG_LIST))
 
 MANPAGES_BASE := $(addsuffix .1rrp,$(PLUGINS))
 
