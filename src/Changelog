@@ -1,3 +1,7 @@
+* Sun Sep 10 2017 <gerbier@users.sourceforge.net> 2.11-2
+- fix bad day of week in changelog (rpmbuild warning)
+- add dependency to rpm-build package instead rpmbuild binary
+
 * Fri Nov 22 2013 <gerbier@users.sourceforge.net> 2.11
 - add install option
 

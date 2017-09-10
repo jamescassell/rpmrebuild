@@ -19,127 +19,129 @@
   
   <body>
     <h1>demofiles.plug</h1>
-    Section: rpmrebuild plugin (1)<br />
-    Updated: 2.11<br />
-    <a href="#index">Index</a> <a name="lbAB" id="lbAB"> </a>
     
-    <h2>NAME</h2>
-    demofiles.plug - a dummy plugin for rpmrebuild, to show how the plugin can work on files <a name="lbAC"
-id="lbAC"> </a>
-
-<h2>SYNOPSIS</h2>
-rpmrebuild --include demofiles.plug &lt;<i>packagename</i>&gt;<br />
-or<br />
-rpmrebuild --change-files="demofiles.sh [<i>option</i>]" &lt;<i>packagename</i>&gt;<br />
-
-<p>the second form allow to specify plugin's soptions <a name="lbAD" id="lbAD"> </a></p>
-
-<h2>DESCRIPTION</h2>
-this plugin is to show how the plugin work on files<br />
-it will just show the files (with find -ls command) in the package. The package is not modified.
-
-<p><a name="lbAE" id="lbAE"> </a></p>
-
-<h2>OPTIONS</h2>
-
-
-<dl>
-  <dt class="c1">-h, --help</dt>
-  
-  <dd>output help information plugins option and exit.</dd>
-  
-  <dt class="c1">-v, --version</dt>
-  
-  <dd>print plugin version and exit</dd>
-</dl><a name="lbAF" id="lbAF"> </a>
-
-<h2>FILES</h2>
-
-
-<dl>
-  <dt class="c1">demofiles.plug</dt>
-  
-  <dd>is the 'include file' for a quicker use</dd>
-  
-  <dt class="c1">demofiles.sh</dt>
-  
-  <dd>contains the code for change-files</dd>
-  
-  <dt class="c1">demofiles.plug.1</dt>
-  
-  <dd>is this man page</dd>
-</dl><a name="lbAG" id="lbAG"> </a>
-
-<h2>EXAMPLES</h2>
-
-
-<p class="c2">rpmrebuild --include demofiles.plug apache</p>
-
-<p>will apply plugin to files, then build the package</p>
-
-<p><a name="lbAH" id="lbAH"> </a></p>
-
-<h2>AUTHORS</h2>
-
-
-<p>Eric Gerbier &lt;<a href="mailto:gerbier@users.sourceforge.net">gerbier@users.sourceforge.net</a>&gt;</p>
-
-<dl>
-  <dt>See &lt;URL:<a href="http://rpmrebuild.sourceforge.net/">http://rpmrebuild.sourceforge.net/</a>&gt;.</dt>
-</dl><a name="lbAI" id="lbAI"> </a>
-
-<h2>NOTES</h2>
-
-
-<dl>
-  <dt>this plugin is given as an example of what can be done</dt>
-</dl><a name="lbAJ" id="lbAJ"> </a>
-
-<h2>COPYRIGHT</h2>
-
-
-<p>rpmrebuild is copyright (C) 2004 by Eric Gerbier.<br />
-  this program is distributed under GNU General Public License<br />
-It is provided "as is", without any express or implied warranties. See the file COPYING for details.</p>
-
-<p><a name="lbAK" id="lbAK"> </a></p>
-
-<h2>SEE ALSO</h2>
-
-
-<p><a href="rpm">rpm</a>(8), <a href="rpmbuild">rpmbuild</a>(8), <a href=  "rpmrebuild_plugins">rpmrebuild_plugins</a>(1)<br />
-  <a href="compat_digest.plug">compat_digest.plug</a>(1), <a href="demo.plug">demo.plug</a>(1), <a href=  "demofiles.plug">demofiles.plug</a>(1), <a href="nodoc.plug">nodoc.plug</a>(1), <a href="uniq.plug">uniq.plug</a>(1),
-  <a href="file2pacDep.plug">file2pacDep.plug</a>(1) <a href="set_tag.plug">set_tag.plug</a>(1) <a href=  "unset_tag.plug">unset_tag.plug</a>(1)<br />
-man -k rrp for plugins specific manpages</p>
-<hr />
-<a name="index" id="index"> </a>
-
-<h2>Index</h2>
-
-
-<dl>
-  <dt><a href="#lbAB">NAME</a></dt>
-  
-  <dt><a href="#lbAC">SYNOPSIS</a></dt>
-  
-  <dt><a href="#lbAD">DESCRIPTION</a></dt>
-  
-  <dt><a href="#lbAE">OPTIONS</a></dt>
-  
-  <dt><a href="#lbAF">FILES</a></dt>
-  
-  <dt><a href="#lbAG">EXAMPLES</a></dt>
-  
-  <dt><a href="#lbAH">AUTHORS</a></dt>
-  
-  <dt><a href="#lbAI">NOTES</a></dt>
-  
-  <dt><a href="#lbAJ">COPYRIGHT</a></dt>
-  
-  <dt><a href="#lbAK">SEE ALSO</a></dt>
-</dl>
-<hr />
-This document was created by man2html, using the manual pages.<br />
-Time: 09:32:20 GMT, November 22, 2013
-</body>
+    <div>
+      Section: rpmrebuild plugin (1)<br />
+      Updated: 2.11<br />
+      <a href="#index">Index</a> <a name="lbAB" id="lbAB"> </a>
+      
+      <h2>NAME</h2>
+      demofiles.plug - a dummy plugin for rpmrebuild, to show how the plugin can work on files <a name="lbAC" id="lbAC"> </a>
+      
+      <h2>SYNOPSIS</h2>
+      rpmrebuild --include demofiles.plug &lt;<i>packagename</i>&gt;<br />
+      or<br />
+      rpmrebuild --change-files="demofiles.sh [<i>option</i>]" &lt;<i>packagename</i>&gt;<br />
+      
+      <p>the second form allow to specify plugin's soptions <a name="lbAD" id="lbAD"> </a></p>
+      
+      <h2>DESCRIPTION</h2>
+      this plugin is to show how the plugin work on files<br />
+      it will just show the files (with find -ls command) in the package. The package is not modified.
+      
+      <p><a name="lbAE" id="lbAE"> </a></p>
+      
+      <h2>OPTIONS</h2>
+      
+      
+      <dl>
+	<dt class="c1">-h, --help</dt>
+	
+	<dd>output help information plugins option and exit.</dd>
+	
+	<dt class="c1">-v, --version</dt>
+	
+	<dd>print plugin version and exit</dd>
+      </dl><a name="lbAF" id="lbAF"> </a>
+      
+      <h2>FILES</h2>
+      
+      
+      <dl>
+	<dt class="c1">demofiles.plug</dt>
+	
+	<dd>is the 'include file' for a quicker use</dd>
+	
+	<dt class="c1">demofiles.sh</dt>
+	
+	<dd>contains the code for change-files</dd>
+	
+	<dt class="c1">demofiles.plug.1</dt>
+	
+	<dd>is this man page</dd>
+      </dl><a name="lbAG" id="lbAG"> </a>
+      
+      <h2>EXAMPLES</h2>
+      
+      
+      <p class="c2">rpmrebuild --include demofiles.plug apache</p>
+      
+      <p>will apply plugin to files, then build the package</p>
+      
+      <p><a name="lbAH" id="lbAH"> </a></p>
+      
+      <h2>AUTHORS</h2>
+      
+      
+      <p>Eric Gerbier &lt;<a href="mailto:gerbier@users.sourceforge.net">gerbier@users.sourceforge.net</a>&gt;</p>
+      
+      <dl>
+	<dt>See &lt;URL:<a href="http://rpmrebuild.sourceforge.net/">http://rpmrebuild.sourceforge.net/</a>&gt;.</dt>
+      </dl><a name="lbAI" id="lbAI"> </a>
+      
+      <h2>NOTES</h2>
+      
+      
+      <dl>
+	<dt>this plugin is given as an example of what can be done</dt>
+      </dl><a name="lbAJ" id="lbAJ"> </a>
+      
+      <h2>COPYRIGHT</h2>
+      
+      
+      <p>rpmrebuild is copyright (C) 2004 by Eric Gerbier.<br />
+	this program is distributed under GNU General Public License<br />
+      It is provided "as is", without any express or implied warranties. See the file COPYING for details.</p>
+      
+      <p><a name="lbAK" id="lbAK"> </a></p>
+      
+      <h2>SEE ALSO</h2>
+      
+      
+      <p><a href="rpm">rpm</a>(8), <a href="rpmbuild">rpmbuild</a>(8), <a href=  "rpmrebuild_plugins">rpmrebuild_plugins</a>(1)<br />
+	<a href="compat_digest.plug">compat_digest.plug</a>(1), <a href="demo.plug">demo.plug</a>(1), <a href=  "demofiles.plug">demofiles.plug</a>(1), <a href="nodoc.plug">nodoc.plug</a>(1), <a href="uniq.plug">uniq.plug</a>(1),
+	<a href="file2pacDep.plug">file2pacDep.plug</a>(1) <a href="set_tag.plug">set_tag.plug</a>(1) <a href=  "unset_tag.plug">unset_tag.plug</a>(1)<br />
+      man -k rrp for plugins specific manpages</p>
+      <hr />
+      <a name="index" id="index"> </a>
+      
+      <h2>Index</h2>
+      
+      
+      <dl>
+	<dt><a href="#lbAB">NAME</a></dt>
+	
+	<dt><a href="#lbAC">SYNOPSIS</a></dt>
+	
+	<dt><a href="#lbAD">DESCRIPTION</a></dt>
+	
+	<dt><a href="#lbAE">OPTIONS</a></dt>
+	
+	<dt><a href="#lbAF">FILES</a></dt>
+	
+	<dt><a href="#lbAG">EXAMPLES</a></dt>
+	
+	<dt><a href="#lbAH">AUTHORS</a></dt>
+	
+	<dt><a href="#lbAI">NOTES</a></dt>
+	
+	<dt><a href="#lbAJ">COPYRIGHT</a></dt>
+	
+	<dt><a href="#lbAK">SEE ALSO</a></dt>
+      </dl>
+      <hr />
+      This document was created by man2html, using the manual pages.<br />
+      Time: 09:32:20 GMT, November 22, 2013
+    </div>
+  </body>
 </html>

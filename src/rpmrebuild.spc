@@ -31,7 +31,7 @@ Requires: textutils
 
 %else
 # rpm v4 v5
-Requires: /usr/bin/rpmbuild
+Requires: rpm-build
 Requires: coreutils
 %define release_suffix  %{release} 
 %endif
